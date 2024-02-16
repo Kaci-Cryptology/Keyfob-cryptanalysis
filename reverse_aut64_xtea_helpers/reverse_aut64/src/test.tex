@@ -1,0 +1,93 @@
+\documentclass{template}
+
+\project{Graduation Project II}
+\title{Put your project title here}
+\author{Name1 Surname1\\Name2 Surname2}
+\faculty{Engineering}
+\department{Mechanical Engineering}
+\abst{Put your abstract here.}
+
+% Remove these lines if do not have nomenclature.
+\nomenclature{$\delta$}{Planck constant}
+\nomenclature{$c$}{Speed of light}
+
+\begin{document}
+
+\chapter{Introduction}\label{ch:in}
+
+If you want to write an equation, you can use
+
+\begin{equation}\label{eq:A}
+A = \rho + B\eta^6
+\end{equation}
+
+To cross-reference the equation above, use the label of the equation such as \Cref{eq:A}.
+
+For multi-line equation use
+
+\begin{equation}
+\begin{aligned}
+A &= \rho + B\eta^6\\
+  &= \int_{f=0}^{f=6} \sinh(x)
+\end{aligned}
+\end{equation}
+
+For inline equation use $A = \rho + B\eta^6$.
+
+To use units with numbers do
+
+\begin{equation}
+\begin{aligned}
+A &= \SI{5}{\kg\per\s}\\
+A &= \SI{5e-3}{\joule\per\kelvin\s}\\
+A &= \num{5e-3}\\
+\end{aligned}
+\end{equation}
+
+
+\section{Problem statement}
+
+The file \texttt{ref.bib} contains your references. You can use google scholar to copy BibTeX output to \texttt{ref.bib}. Here is how you cite \cite{gulawani2006cfd}.
+
+\section{Aim and objectives}
+
+Here is how you include a figure. The figure will be placed to some appropriate location. This is most of the time recommended. If, for some reason, you want to put figure right under this paragraph, use [H] option in \textbackslash begin\{figure\}[H].
+
+\begin{figure}
+\caption{Put your caption here.}
+\label{fig:logo}
+\includegraphics[scale=0.2]{logo}
+\end{figure}
+
+Now I am going to cross-reference the figure by using its label \Cref{fig:logo}.
+
+\section{Scope and limitations}
+
+This is how you make a table.
+
+\begin{table}
+\caption{Put table caption here.}
+\label{tab:city}
+\entries{
+person  & singEnglish & singGaeilge & pluralEnglish & pluralGaeilge\\
+    1st & at me       & agam        & at us         & againn\\
+    2st & agat        & at you      & agaibh        & other \\ 
+    3rd & at him      & aige        & at them       & acu\\
+        & at her      & aici        &               &\\
+}
+\end{table}
+
+Let's cross-reference to \Cref{tab:city}.
+
+\chapter{Literature review}\label{ch:lr}
+
+You can cross-reference to a chapter or section by using its label. Let's cross-reference to Literature Review chapter such as \Cref{ch:lr}.
+
+\chapter{Methodology}\label{ch:me}
+\chapter{Results}\label{ch:re}
+\chapter{Conclusion}\label{ch:co}
+
+% You do not need to remove this even if you do not have appendices.
+\appendix % Anything you add will belong to appendix from this point on.
+
+\end{document}
