@@ -1,17 +1,15 @@
 # Introduction
 
-Ce dépôt contient l'implémentation du cryptosystème DST40, ainsi qu'une attaque de type brute force réalisée à la fois sur le processeur (CPU) et sur le processeur graphique (GPU).
+This repository contains the implementation of the DST40 cryptosystem, as well as a brute-force attack performed both on the central processing unit (CPU) and the graphics processing unit (GPU).
 
-# Implémentations 
+# Implementations
 
-* `DST40.ipynb`: Ce fichier contient l'algorithme DST40 et une brute force sur CPU.
-* `BruteForce-GPU.ipynb`: Ce fichier contient une attaque type brute force sur GPU.
-* `POC-key-recovery`: Ce fichier est un "Proof of concept" de la manière dont on peut récupérer la clé en moirns d'une heure.
+* `DST40.ipynb`: This file contains the DST40 algorithm and a CPU-based brute-force attack.
+* `BruteForce-GPU.ipynb`: This file contains a GPU-based brute-force attack.
+* `POC-key-recovery`: This file is a "Proof of Concept" demonstrating how the key can be recovered in less than an hour.
 
+# Execution
 
+To run the scripts:
 
-# Exécution 
-
-Pour pouvoir exécuter les scripts :
-
-# toutes les instructions nécessaires sont fournies dans le notebook lui-même. Il suffit de suivre les indications qui y sont données.
+# all necessary instructions are provided in the notebook itself. Simply follow the instructions provided there.
