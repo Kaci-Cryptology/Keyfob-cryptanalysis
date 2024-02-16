@@ -1,14 +1,16 @@
-# Bienvenue sur le site des algorithmes pour les systèmes RF et RFID des véhicules!
+# Welcome to the RF and RFID Systems Algorithms Website!
 
-Ce site est dédié à la documentation et à l'analyse des algorithmes utilisés dans les systèmes de radiofréquence (RF) et d'identification par radiofréquence (RFID) des véhicules, parmi les plus utilisés. Vous trouverez ici des informations sur les algorithmes de chiffrement, d'authentification et de gestion des clés utilisés dans ces systèmes, ainsi que des ressources sur les attaques et les techniques de cryptanalyse associées.
+This website is dedicated to the documentation and analysis of algorithms used in RF (Radio Frequency) and RFID (Radio-Frequency Identification) systems in vehicles, among the most widely used. Here you will find information on encryption algorithms, authentication, and key management used in these systems, as well as resources on attacks and associated cryptanalysis techniques.
 
-## Contenu du site:
-- **Documentation sur les algorithmes RF et RFID:** Cette section contient des explications détaillées sur les algorithmes utilisés dans les systèmes RF et RFID des véhicules, y compris leur fonctionnement et leur mise en œuvre.
-- **Attaques et techniques de cryptanalyse:** Vous trouverez ici des informations sur les différentes attaques possibles contre les systèmes RF et RFID des véhicules, ainsi que des analyses de sécurité et des recommandations pour renforcer la sécurité de ces systèmes.
-- **Ressources supplémentaires:** Cette section comprend des liens vers des articles, des livres et d'autres ressources utiles pour approfondir vos connaissances sur les algorithmes et la sécurité des systèmes RF et RFID.
+## Site Content:
+- **Documentation on RF and RFID algorithms:** This section contains detailed explanations of algorithms used in RF and RFID systems in vehicles, including their operation and implementation.
+- **Attacks and Cryptanalysis Techniques:** Here you will find information on various possible attacks against RF and RFID systems in vehicles, as well as security analyses and recommendations to strengthen the security of these systems.
+- **Additional Resources:** This section includes links to articles, books, and other useful resources to deepen your knowledge of algorithms and security in RF and RFID systems.
 
-Les systèmes RF et RFID des véhicules ne sont pas exempts de vulnérabilités. Des attaques visant à compromettre leur sécurité sont fréquemment observées. Ce site vise à documenter ces attaques et à fournir des moyens de renforcer la sécurité de ces systèmes.
+RF and RFID systems in vehicles are not immune to vulnerabilities. Attacks aiming to compromise their security are frequently observed. This site aims to document these attacks and provide means to enhance the security of these systems.
 
-Nous vous encourageons à explorer le contenu du site et à contribuer en partageant vos propres recherches, analyses et découvertes dans ce domaine. Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter.
+Feel free to explore the site's content and contribute by sharing your own research, analyses, and discoveries in this field. If you have any questions or comments, please don't hesitate to contact us.
 
-Merci de votre visite!
+Thank you for visiting!
+
+*Author: Amaouche Kaci, Cryptology Expert*
