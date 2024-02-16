@@ -1,22 +1,20 @@
 # Introduction
 
-Ce dépôt fournit une description complète du cryptosystème Hitag-2, basée sur l'étude de plusieurs articles scientifiques. Vous pouvez trouver ce document dans le répertoire "Hitag-2 cryptanalysis". Il comprend également des implémentations de chaque attaque et des optimisations possibles
+This repository provides a comprehensive description of the Hitag-2 cryptosystem, based on the study of several scientific articles. You can find this document in the "Hitag-2 cryptanalysis" directory. It also includes implementations of each attack and possible optimizations.
 
-# Implémentations 
+# Implementations
 
-* `BruteForce.ipynb`: Ce fichier comprend à la fois l'algorithme Hitag2 et une attaque de type bruteforce qui cible la clé secrète sur un processeur central (CPU) en utilisant Python
-* `GDop1.ipynb`:Une première optimisation de l'attaque bruteforce, l'attaque Guess and Determine version récursive. Elle cible l'état initial qui a généré le keystream, puis permet de récupérer la clé secrète
-* `GDop2.ipynb`: Une deuxième optimisation qui consiste à supprimer la récursion de l'attaque, améliorant ainsi son efficacité
+* `BruteForce.ipynb`: This file includes both the Hitag2 algorithm and a brute-force attack targeting the secret key on a central processing unit (CPU) using Python.
+* `GDop1.ipynb`: A first optimization of the brute-force attack, the recursive Guess and Determine attack version. It targets the initial state that generated the keystream and then retrieves the secret key.
+* `GDop2.ipynb`: A second optimization that removes recursion from the attack, thereby improving its efficiency.
+* `GDop3.ipynb`: A third optimization involves precomputing the 'expand' and 'f' functions and storing them in arrays to avoid calling them at each iteration of the loop.
+* `GDop4.ipynb`: A final optimization involves precomputing and memorizing subfilters, improving performance by avoiding recalculating these values ​​each time they are used.
+* `BruteForceGPU.ipynb`: A parallel version of the brute-force attack is implemented using Numba CUDA, allowing simultaneous execution on multiple graphics processors.
+* `BruteForce.py GDop1.py GDop2.py and GDop3.py`: All .py files should not be executed directly; they serve as source code for the notebooks.
 
-* `GDop3.ipynb`: Une troisième optimisation consiste à précalculer les fonctions 'expand' et 'f' et à les stocker dans des tableaux afin d'éviter leur appel à chaque itération de la boucle
-* `GDop4.ipynb`: Une dernière optimisation consiste à précalculer et à mémoriser les sous-filtres, améliorant ainsi les performances en évitant de recalculer ces valeurs à chaque utilisation
+# Execution
 
-* `BruteForceGPU.ipynb`: Une version parallèle de l'attaque bruteforce est implémentée en utilisant Numba CUDA, permettant une exécution simultanée sur plusieurs processeurs graphiques.
-* `BruteForce.py GDop1.py GDop2.py and GDop3.py`: Tous les fichiers .py ne doivent pas être exécutés directement, ils servent de code source pour les notebooks
+To execute the different attacks:
 
-# Exécution 
-
-Pour exécuter les différentes attaques, il suffit de :
-
-# Pour les fichiers .ipynb, toutes les instructions nécessaires sont fournies dans le notebook lui-même. Il suffit de suivre les indications qui y sont données.
-# Pour la version OpenCL, vous trouverez un fichier README qui explique en détail le déroulement et l'exécution de l'attaque.
+# For the .ipynb files, all necessary instructions are provided in the notebook itself. Simply follow the instructions provided there.
+# For the OpenCL version, you will find a README file that explains in detail the procedure and execution of the attack.
