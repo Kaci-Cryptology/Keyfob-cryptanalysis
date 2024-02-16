@@ -36,6 +36,5 @@ Contributions to this repository are welcome. If you identify issues, vulnerabil
 
 For any questions, concerns, or inquiries related to this repository:
 
-- Repository Owner or Administrator: [Kaci Amaouche]
-- Other Community or Team Contact: [Djamil Elaidi] 
+- Repository Owner or Administrator: [Kaci Amaouche] 
 
